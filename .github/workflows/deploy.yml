@@ -22,6 +22,8 @@ jobs:
 
       - name: Build the project
         run: npm run build
+
+      - name: Generate the project
         run: npm run generate
 
       - name: Disable Jekyll
