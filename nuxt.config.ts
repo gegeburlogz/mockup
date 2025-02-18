@@ -5,6 +5,7 @@ export default defineNuxtConfig({
   ssr:false,
   app: {
     baseURL: '/mockup/',
+    buildAssetsDir: 'assets' 
   },
   devtools: { enabled: true },
   css: ['~/assets/css/main.css'],
